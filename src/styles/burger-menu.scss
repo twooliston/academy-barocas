@@ -1,0 +1,23 @@
+/* Side Menu */
+.burger-menu {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.burger-menu div {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+}
+.sidebar {
+    position: fixed;
+    transition: 0.5s;
+    transform: translateX(-30rem);
+    width: 30rem;
+    background-color: lightgray;
+    height: 100%;
+}
+.sidebar.open {
+    transform: translateX(0);
+}

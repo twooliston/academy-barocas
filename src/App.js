@@ -3,7 +3,7 @@ import './App.scss';
 import './styles/bg.scss';
 import './styles/page.scss';
 
-import { BrowserRouter, Link, Route, Routes  } from 'react-router-dom';
+import { BrowserRouter, Route, Routes  } from 'react-router-dom';
 
 import Home from './pages/Home';
 import Basketball from './pages/Basketball';

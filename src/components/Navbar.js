@@ -9,10 +9,6 @@ const Navbar = (props) => {
                 {pages.map((page) => (
                     <li key={page[0]}><Link to={page[0]}>{page[1]}</Link></li>
                 ))}
-                {/* <Link to="/football"><li>Football</li></Link>
-                <Link to="/basketball"><li>Basketball</li></Link>
-                <Link to="/handball"><li>Handball</li></Link>
-                <Link to="/about"><li>About Barocas</li></Link> */}
             </ul>
         </nav>
     );

@@ -50,14 +50,18 @@ const Header = () => {
         )}
       </header>
       <aside className="sidebar">
-        <h3> Shopping Categories</h3>
-        <button className="close-burger-menu" onClick={closeMenu}>
-          X
-        </button>
+        <div className="sidebar-header">
+          <h3 className="width-100"></h3> {/* Barocas Academy */}
+          <button className="close-burger-menu" onClick={closeMenu}>
+            close
+          </button>
+        </div>
         <ul>
           {pages.map((page) => (
             <li key={page[0]}>
-              <Link to={page[0]}>{page[1]}</Link>
+              <Link to={page[0]} onClick={closeMenu}>
+                {page[1]}
+              </Link>
             </li>
           ))}
         </ul>

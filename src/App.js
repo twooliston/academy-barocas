@@ -2,6 +2,7 @@
 import "./App.scss";
 import "./styles/bg.scss";
 import "./styles/page.scss";
+import "./styles/width.scss";
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 

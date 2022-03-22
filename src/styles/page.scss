@@ -64,12 +64,21 @@ nav {
 }
 
 @media screen and (max-width: $size) {
+    aside {
+        ul {
+            li {
+                padding: 5px 0px;
+                font-size: larger;
+            }
+        }
+    }
     footer {
         ul {
             flex-direction: column;
 
             li {
                 padding: 0px 30px;
+                font-size: larger;
             }
         }
     }

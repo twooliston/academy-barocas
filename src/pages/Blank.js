@@ -1,10 +1,10 @@
 import React from "react";
+import Page from "../components/Page";
 
 const Blank = () => {
+  let page = "blank";
 
-    return (
-        <div>THIS IS THE Blank PAGE</div>
-    );
-}
+  return <Page page={page}></Page>;
+};
 
 export default Blank;

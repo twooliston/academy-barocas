@@ -1,10 +1,10 @@
 import React from "react";
+import Page from "../components/Page";
 
 const Handball = () => {
+  let page = "handball";
 
-    return (
-        <div>THIS IS THE Handball PAGE</div>
-    );
-}
+  return <Page page={page}></Page>;
+};
 
 export default Handball;

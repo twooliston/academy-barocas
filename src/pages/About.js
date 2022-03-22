@@ -1,10 +1,10 @@
 import React from "react";
+import Page from "../components/Page";
 
 const About = () => {
+  let page = "about";
 
-    return (
-        <div>THIS IS THE About PAGE</div>
-    );
-}
+  return <Page page={page}></Page>;
+};
 
 export default About;

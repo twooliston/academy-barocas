@@ -1,85 +1,48 @@
-$size: 950px;
-$font-colour: white;
-$nav-colour: #282c34;
-
-html,
-body,
-#root {
-    margin: 0px;
-    height: 100%;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-a {
-    text-decoration: none;
-    color: $font-colour;
-}
-
-header,
-footer {
-    display: flex;
-    flex-direction: row;
-    background-color: $nav-colour;
-    color: $font-colour;
-    align-items: center;
-}
-
-header {
-    font-size: 18pt;
-}
-
-footer {
-    font-size: 12pt;
-}
-
-main {
-    height: 100%;
-}
-
-nav {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-
-    ul {
-        width: fit-content;
-        height: fit-content;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    ul li {
-        padding: 20px 30px;
-        display: flex;
-        height: 100%;
-        align-items: center;
+.page {
+    color: white;
+    font-size: 25pt;
+    text-shadow:
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+     -1px 1px 0 #000,
+      1px 1px 0 #000;
+    p, div {
+        padding: 15px;
     }
 }
 
-@media screen and (max-width: $size) {
-    aside {
-        ul {
-            li {
-                padding: 5px 0px;
-                font-size: larger;
-            }
-        }
-    }
-    footer {
-        ul {
-            flex-direction: column;
+/* CSS */
+.button {
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
 
-            li {
-                padding: 0px 30px;
-                font-size: larger;
-            }
-        }
-    }
+.button:hover {
+  background-color: #fff;
+}
+
+.button:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button {
+    min-width: 120px;
+    padding: 0 25px;
+  }
 }

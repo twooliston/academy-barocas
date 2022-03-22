@@ -2,7 +2,9 @@
 import "./App.scss";
 import "./styles/bg.scss";
 import "./styles/page.scss";
+import "./styles/basic.scss";
 import "./styles/width.scss";
+import "./styles/padding.scss";
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 

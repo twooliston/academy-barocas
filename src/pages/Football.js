@@ -1,10 +1,10 @@
 import React from "react";
+import Page from "../components/Page";
 
 const Football = () => {
+  let page = "football";
 
-    return (
-        <div>THIS IS THE Football PAGE</div>
-    );
-}
+  return <Page page={page}></Page>;
+};
 
 export default Football;

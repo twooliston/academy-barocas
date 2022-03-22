@@ -40,7 +40,7 @@ const Header = () => {
     <>
       <header>
         {isMobile ? (
-          <button className="burger-menu" onClick={openMenu}>
+          <button className="burger-menu button-padding" onClick={openMenu}>
             <div></div>
             <div></div>
             <div></div>
@@ -52,7 +52,10 @@ const Header = () => {
       <aside className="sidebar">
         <div className="sidebar-header">
           <div className="width-100"></div>
-          <button className="close-burger-menu" onClick={closeMenu}>
+          <button
+            className="close-burger-menu button-padding"
+            onClick={closeMenu}
+          >
             close
           </button>
         </div>

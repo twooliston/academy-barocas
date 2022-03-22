@@ -52,7 +52,6 @@ const Header = () => {
       <aside className="sidebar">
         <div className="sidebar-header">
           <div className="width-100"></div>
-          {/* <h3 className="width-100">Barocas Academy</h3> */}
           <button className="close-burger-menu" onClick={closeMenu}>
             close
           </button>

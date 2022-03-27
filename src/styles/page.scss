@@ -1,3 +1,8 @@
+$size: 950px;
+$secondary_font_colour: #422800;
+$primary_background: #fbeee0;
+$secondary_background: #422800;
+
 .page {
     color: white;
     font-size: 25pt;
@@ -13,11 +18,11 @@
 
 /* CSS */
 .button {
-  background-color: #fbeee0;
-  border: 2px solid #422800;
+  background-color: $primary_background;
+  border: 2px solid $secondary_background;
   border-radius: 30px;
-  box-shadow: #422800 4px 4px 0 0;
-  color: #422800;
+  box-shadow: $secondary_background 4px 4px 0 0;
+  color: $secondary_font_colour;
   cursor: pointer;
   display: inline-block;
   font-weight: 600;
@@ -36,11 +41,11 @@
 }
 
 .button:active {
-  box-shadow: #422800 2px 2px 0 0;
+  box-shadow: $secondary_background 2px 2px 0 0;
   transform: translate(2px, 2px);
 }
 
-@media (min-width: 768px) {
+@media (min-width: $size) {
   .button {
     min-width: 120px;
     padding: 0 25px;

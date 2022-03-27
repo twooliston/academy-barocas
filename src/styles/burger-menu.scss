@@ -1,3 +1,4 @@
+$size: 950px;
 $sidebar_width: 20rem;
 
 /* Side Menu */
@@ -33,4 +34,10 @@ $sidebar_width: 20rem;
 }
 .sidebar.open {
     transform: translateX(0);
+}
+
+@media screen and (max-width: $size) {
+    header {
+        background-color: transparent;
+    }
 }

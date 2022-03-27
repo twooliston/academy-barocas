@@ -42,16 +42,15 @@ header {
     font-size: 18pt;
 }
 
+main {
+    padding-bottom: 75px;
+}
+
 footer {
     font-size: 12pt;
 }
 
-main {
-    height: 100%;
-}
-
 nav {
-    height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -74,6 +73,12 @@ nav {
 
 h1 {
     margin: 0;
+}
+
+@media (min-width: $size) {
+  main {
+    height: 100%;
+  }
 }
 
 @media screen and (max-width: $size) {

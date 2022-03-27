@@ -36,7 +36,7 @@ const Footer = () => {
       {isMobile ? (
         <nav>
           <ul>
-            <hr size="1" width="100%" color="#3e4148" />
+            {/* <hr size="1" width="100%" color="#3e4148" /> */}
             <h3>Need Help?</h3>
             <div>
               <li>
@@ -46,7 +46,7 @@ const Footer = () => {
                 <Link to={faqs[0]}>{faqs[1]}</Link>
               </li>
             </div>
-            <hr size="1" width="100%" color="#3e4148" />
+            <hr size="1" width="65%" color="#3e4148" />
             <h3>Our Choices</h3>
             <div>
               <li>
@@ -59,7 +59,7 @@ const Footer = () => {
                 <Link to={tac[0]}>{tac[1]}</Link>
               </li>
             </div>
-            <hr size="1" width="100%" color="#3e4148" />
+            {/* <hr size="1" width="100%" color="#3e4148" /> */}
           </ul>
         </nav>
       ) : (

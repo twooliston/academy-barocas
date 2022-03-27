@@ -15,6 +15,12 @@ import Handball from "./pages/Handball";
 import About from "./pages/About";
 import Blank from "./pages/Blank";
 
+import Contact from "./pages/footer/Contact";
+import Faqs from "./pages/footer/Faqs";
+import Sustainability from "./pages/footer/Sustainability";
+import Privacy from "./pages/footer/Privacy";
+import Terms from "./pages/footer/Terms";
+
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
@@ -32,10 +38,22 @@ function App() {
             <Route path="/handball" exact={true} element={<Handball />} />
             <Route path="/about" exact={true} element={<About />} />
             <Route path="/404" exact={true} element={<Blank />} />
+
+            {/* Footer Pages */}
+            <Route path="/contact" exact={true} element={<Contact />} />
+            <Route path="/faqs" exact={true} element={<Faqs />} />
+            <Route
+              path="/sustainability"
+              exact={true}
+              element={<Sustainability />}
+            />
+            <Route path="/privacy-policy" exact={true} element={<Privacy />} />
+            <Route
+              path="/terms-and-conditions"
+              exact={true}
+              element={<Terms />}
+            />
           </Routes>
-          {/* <Routes >
-              <Route path="/"><Home /></Route>
-          </Routes > */}
         </main>
         <Footer />
       </div>

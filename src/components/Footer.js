@@ -20,7 +20,7 @@ const Footer = () => {
   let pages = [
     ["/contact", "Contact"],
     ["/faqs", "FAQs"],
-    ["/modern-slavery-act", "Modern Slavery Act"],
+    ["/sustainability", "Sustainability"],
     ["/privacy-policy", "Privacy Policy"],
     ["/terms-and-conditions", "Terms & Conditions"],
   ];

@@ -5,6 +5,7 @@ $secondary_background: #422800;
 
 .page {
     color: white;
+    margin: 40px 20%;
     font-size: 25pt;
     text-shadow:
      -1px -1px 0 #000,  
@@ -45,9 +46,27 @@ $secondary_background: #422800;
   transform: translate(2px, 2px);
 }
 
+.long-text {
+  font-size: 16pt;
+}
+
+.list {
+  font-size: 14pt;
+  padding: 10px;
+  li {
+    padding: 5px;
+  }
+}
+
 @media (min-width: $size) {
   .button {
     min-width: 120px;
     padding: 0 25px;
+  }
+}
+
+@media screen and (max-width: $size) {
+  .page {
+    margin: 40px 20px;
   }
 }

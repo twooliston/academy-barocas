@@ -5,18 +5,18 @@ const Contact = () => {
   return (
     <div className="page long-text">
       <h1>Contact Barocas</h1>
-      {/* <p>
+      <p>
         If you have any questions, please see the <Link to="/faqs">FAQs</Link>.
         If your questions are still not answered, please fill out the
         information below:
-      </p> */}
+      </p>
       <form
-        action="mailto:twooliston@gmail.com?subject=Contact Academy Barocas&body=Hi,"
+        // action="mailto:twooliston@gmail.com?subject=Contact Academy Barocas&body=Hi,"
         method="post"
         enctype="text/plain"
         className="padding-100"
       >
-        {/* <label>Name:</label>
+        <label>Name:</label>
         <br />
         <input type="text" name="name" />
         <br />
@@ -28,8 +28,8 @@ const Contact = () => {
         <br />
         <textarea name="comment" rows="6" cols="40" />
         <input type="text" name="comment" size="50" />
-        <br /> */}
-        <input type="submit" value="Send Email" className="button" />
+        <br />
+        <input type="submit" value="don't werk do it" className="button" />
       </form>
     </div>
   );
